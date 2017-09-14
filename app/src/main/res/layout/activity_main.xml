@@ -6,46 +6,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-        <LinearLayout
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/kou"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="50dp"
+            android:hint="kou"
+            android:inputType="number"/>
 
+        <EditText
+            android:id="@+id/ji"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="ji"
+            android:inputType="number"/>
 
-            <EditText
-                android:id="@+id/kou"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:hint="kou"/>
+        <EditText
+            android:id="@+id/bu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="bu"
+            android:inputType="number"/>
 
-            <EditText
-                android:id="@+id/ji"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:hint="ji"/>
+        <EditText
+            android:id="@+id/jin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="jin"
+            android:inputType="number"/>
 
-            <EditText
-                android:id="@+id/bu"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:hint="bu"/>
+        <TextView
+            android:id="@+id/hou"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"/>
 
-            <EditText
-                android:id="@+id/jin"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:hint="jin"/>
-
-            <TextView
-                android:layout_gravity="center_horizontal"
-                android:id="@+id/hou"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"/>
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="button"/>
-        </LinearLayout>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="button"/>
+    </LinearLayout>
 </LinearLayout>

@@ -23,10 +23,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                float ikou = Float.parseFloat(kou.getText().toString());
-                float iji = Float.parseFloat(ji.getText().toString());
-                float ibu = Float.parseFloat(bu.getText().toString());
-                float ijin = (float) (0.01 * Float.parseFloat(jin.getText().toString()));
+                float ikou = 0;
+                float iji = 0;
+                float ibu = 0;
+                float ijin = 0;
+
+                ikou = Float.parseFloat(kou.getText().toString());
+                iji = Float.parseFloat(ji.getText().toString());
+                ibu = Float.parseFloat(bu.getText().toString());
+                ijin = (float) (0.01 * Float.parseFloat(jin.getText().toString()));
 
                 float x = ikou * ijin + 10;
 
