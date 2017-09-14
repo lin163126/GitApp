@@ -31,36 +31,13 @@
                 android:hint="bu"/>
 
             <EditText
-                android:id="@+id/gong"
+                android:id="@+id/jin"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:hint="gong"/>
-
-            <EditText
-                android:id="@+id/yang"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:hint="yang"/>
-
-            <EditText
-                android:id="@+id/shi"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:hint="shi"/>
-
-            <EditText
-                android:id="@+id/yi"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:hint="yi"/>
-
-            <EditText
-                android:id="@+id/shui"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:hint="shui"/>
+                android:hint="jin"/>
 
             <TextView
+                android:layout_gravity="center_horizontal"
                 android:id="@+id/hou"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"/>
